@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "version": "1.0.2",
+  "short_name": "Konnect Well",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "images/logo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

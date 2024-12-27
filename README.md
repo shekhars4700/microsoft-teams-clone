@@ -1,109 +1,86 @@
-<!-- PROJECT LOGO -->
-<p align="center">
-  <a href="">
-    <img src="client/src/assets/images/logo.png" alt="Logo" width="130" height="130">
-  </a>
- 
-  <h1 align="center">
-    <a href="">
-       Konnect Well
-    </a>
-  </h1>
+Here's an improved and well-structured README for your group video call and chat application:
 
-  <p align="center">
-    <strong>Group Video Calls, Chat all in one place giving you a seamless communication experience!</strong>
-    <br />
-    <br />
-    <strong><a href="">Visit App</a></strong>
-  </p>
-</p>
+---
 
+# **Seamless Group Video Calls & Chat** 💻📞💬  
+**A one-stop solution for seamless communication, integrating group video calls and chat features in a user-friendly platform.**
 
+---
 
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <strong><a href="#about-the-project">About The Project</a></strong>
-    </li>
-    <li>
-      <strong><a href="#deployment">Deployment</a></strong>
-    </li>
-    <li>
-      <strong><a href="#built-with">Built With</a></strong>
-    </li>
-    <li>
-      <strong><a href="#product-screenshots">Product Screenshots</a></strong>
-    </li>
-    <li>
-      <strong><a href="#contact">Contact</a></strong>
-    </li>
-  </ol>
-</details>
+## **Table of Contents**
+1. [About The Project](#about-the-project)  
+2. [Features](#features)  
+3. [Built With](#built-with)  
+4. [Deployment](#deployment)  
+5. [Screenshots](#screenshots)  
+6. [Contact](#contact)  
 
+---
 
+## **About The Project**  
+This project was developed aiming to create a functional and user-friendly approximation of Microsoft Teams. The app combines group video calls and chat functionalities, ensuring a secure, interactive, and feature-rich communication experience.
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
-<strong>
-<ul>
-  <li>
-    Developed a video chat application as the part of Microsoft Engage Mentorship Program, this application is destined to be the approximate clone of the famous Microsoft Teams software.
-  </li>
-  <li>
-    A user must authenticate through any of the given identity providers (Microsoft, Google, Github, LinkedIn, Amazon) inorder to use the application.
-  </li>
-  <li>
-    Users can connect to each other through video calls which offer a wide range of capabilities like microphone mute/unmute, video mute/unmute, screen sharing, leave call, copy meeting code, ability to see the number of meeting participants and also inmeeting chat. Once a user starts a new meeting, he/she can either share the meeting link or copy the meeting code from the navigation bar to share the meeting with others. 
-  </li>
-  <li>
-    The in-meeting chat is even persisted after the user leaves the meeting. So, if the user bychance forgets to note some things down when the meeting ends, he/she can also visit the chat section to see the respective meeting's chat.
-  </li>
-  <li>
-    Meetings are safe, before joining an existing meeting, the user requires to take the permission of the meeting admin to enter into the meeting. The meeting admin gets a notification and accordingly can admit or deny entry. 
-  </li>
-  <li>
-    Users also have the option to chat with any other user separately or make groups, and moreover the chat is not just a text chat but the user can send any kind of information such as bold/italic/underline text, code part, embed a link, or send attachments. 
-  </li>
-  <li>
-    We have popups for any invalid action - for eg entering an invalid meeting code in the "Enter a code" section of videochat, which clearly conveys the information to the user.
-  </li>
-  <li>
-    We have popups for some actions which nicely and clearly conveys the information to the user - for eg entering an invalid meeting code in the "Enter a code" section of videochat or when copying the meeting code in the videocall, or when admitting a new person, or when waiting for the admin to let you in.
-  </li>
-  <li>
-    We also have different sounds in the app, which make the overall user experience interactive. We have sounds for waiting, permission, joining a video call, receiving a chat message as well as error.
-  </li>
-</ul>
-</strong>
+---
 
-<!-- Deployment -->
-## Deployment
-The web app is deployed using the Microsoft Azure App Service - used CI/CD
+## **Features**  
 
-## Built With
-* [WebRTC](https://webrtc.org)
-* [Socket.io](https://socket.io)
-* [React](https://reactjs.org)
-* [Node.js](https://nodejs.org)
-* [Express](https://expressjs.com)
+### **Video Calling**  
+- **Host Meetings:** Start a meeting and share the meeting link or code to invite participants.  
+- **Join Meetings:** Enter the meeting code to join. Requires admin approval.  
+- **Meeting Features:**  
+  - Microphone mute/unmute  
+  - Video mute/unmute  
+  - Screen sharing  
+  - Participant count display  
+  - Copy meeting code  
+  - Leave call  
+  - In-meeting chat  
+- **Meeting Security:** Admin permission required to admit participants.  
 
-## Product Screenshots
-[![home][home]](https://github.com/PradKalkar/microsoft-teams-clone)
-[![auth][auth]](https://github.com/PradKalkar/microsoft-teams-clone)
-[![chatfeatures][chatfeatures]](https://github.com/PradKalkar/microsoft-teams-clone)
+### **Chat Functionalities**  
+- **Persistent Chat:** Meeting chats are saved for post-meeting reference.  
+- **Direct Messaging & Group Chats:** Communicate one-on-one or in groups.  
+- **Rich Media Support:**  
+  - Text formatting (bold, italic, underline).  
+  - Code snippets.  
+  - Embedded links.  
+  - File attachments.  
 
-<!-- CONTACT -->
-## Contact
-Pradnesh Kalkar - ppk.kalkar@gmail.com
+### **User Authentication**  
+- Sign in with multiple identity providers:  
+  - Microsoft  
+  - Google  
+  - GitHub  
+  - LinkedIn  
+  - Amazon  
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[product-screenshot]: https://github.com/PradKalkar/microsoft-teams-clone/blob/master/client/public/product_images/Landing%20Page.png
-[waiting]: https://github.com/PradKalkar/microsoft-teams-clone/blob/master/client/public/product_images/Waiting.png
-[auth]: https://github.com/PradKalkar/microsoft-teams-clone/blob/master/client/public/product_images/Auth.png
-[home]: https://github.com/PradKalkar/microsoft-teams-clone/blob/master/client/public/product_images/Landing%20Page.png
-[chatfeatures]: https://github.com/PradKalkar/microsoft-teams-clone/blob/master/client/public/product_images/ChatFeatures.png
-[invalid]: https://github.com/PradKalkar/microsoft-teams-clone/blob/master/client/public/product_images/InvalidMeetCode.png
-[admitrequest]: https://github.com/PradKalkar/microsoft-teams-clone/blob/master/client/public/product_images/AdminRequest.png
+### **Interactive Experience**  
+- Popups for key actions, including:  
+  - Invalid meeting codes.  
+  - Meeting admin actions (admit/deny participants).  
+  - Copy meeting code.  
+- **Sound Effects:**  
+  - Waiting for admin approval.  
+  - Joining calls.  
+  - Receiving chat messages.  
+  - Error notifications.  
+
+---
+
+## **Built With**  
+- **WebRTC:** For real-time communication.  
+- **Socket.io:** For bidirectional event-based communication.  
+- **React:** For building the frontend.  
+- **Node.js & Express:** For backend API and server management.  
+
+---
+
+## **Deployment**  
+The application is hosted on **Microsoft Azure App Service** with a seamless CI/CD pipeline for automated deployments and updates.
+
+### **Deployment Steps:**  
+1. Set up your Azure App Service.  
+2. Push code changes to the main branch (triggers the CI/CD pipeline).  
+3. Visit the deployed app URL to access the live platform.
+
+---
